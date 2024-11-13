@@ -3,9 +3,10 @@
 ios problem only with aiyl flutter plugin
 
 steps:
-flutter clean
-flutter pub get
-pod install --repo-update
+1. flutter clean
+2. flutter pub get
+3. cd ios
+4. pod install --repo-update
 
 result
 ### Error
