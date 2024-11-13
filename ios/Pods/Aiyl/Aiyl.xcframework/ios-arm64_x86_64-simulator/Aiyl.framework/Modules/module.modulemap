@@ -1,0 +1,11 @@
+framework module Aiyl {
+  umbrella header "Aiyl.h"
+  export *
+
+  module * { export * }
+}
+
+module Aiyl.Swift {
+  header "Aiyl-Swift.h"
+  requires objc
+}

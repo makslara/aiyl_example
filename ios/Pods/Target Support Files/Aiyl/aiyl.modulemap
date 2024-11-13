@@ -1,0 +1,6 @@
+framework module aiyl {
+  umbrella header "aiyl-umbrella.h"
+
+  export *
+  module * { export * }
+}
