@@ -20,274 +20,259 @@ Error (Xcode): Linker command failed with exit code 1 (use -v to see invocation)
 
 Error launching application on masim’s iPhone.
 
-
-COCOAPODS: 1.15.2
 podfile.lock file:
 
 > PODS:
 > - Aiyl (1.0.0)
 > - aiyl (1.0.0):
->     - Aiyl (= 1.0.0)
->     - Flutter
+>   - Aiyl (= 1.0.0)
+>   - Flutter
 > - app_links (0.0.1):
->     - Flutter
+>   - Flutter
 > - app_settings (5.1.1):
->     - Flutter
+>   - Flutter
 > - appsflyer_sdk (6.14.3):
->     - AppsFlyerFramework (= 6.14.3)
->     - Flutter
+>   - AppsFlyerFramework (= 6.14.3)
+>   - Flutter
 > - AppsFlyerFramework (6.14.3):
->     - AppsFlyerFramework/Main (= 6.14.3)
+>   - AppsFlyerFramework/Main (= 6.14.3)
 > - AppsFlyerFramework/Main (6.14.3)
 > - camera_avfoundation (0.0.1):
->     - Flutter
+>   - Flutter
 > - device_info_plus (0.0.1):
->     - Flutter
+>   - Flutter
 > - Firebase/Analytics (10.24.0):
->     - Firebase/Core
+>   - Firebase/Core
 > - Firebase/Core (10.24.0):
->     - Firebase/CoreOnly
->     - FirebaseAnalytics (~> 10.24.0)
+>   - Firebase/CoreOnly
+>   - FirebaseAnalytics (~> 10.24.0)
 > - Firebase/CoreOnly (10.24.0):
->     - FirebaseCore (= 10.24.0)
+>   - FirebaseCore (= 10.24.0)
 > - Firebase/Messaging (10.24.0):
->     - Firebase/CoreOnly
->     - FirebaseMessaging (~> 10.24.0)
+>   - Firebase/CoreOnly
+>   - FirebaseMessaging (~> 10.24.0)
 > - firebase_analytics (10.10.2):
->     - Firebase/Analytics (= 10.24.0)
->     - firebase_core
->     - Flutter
+>   - Firebase/Analytics (= 10.24.0)
+>   - firebase_core
+>   - Flutter
 > - firebase_core (2.30.0):
->     - Firebase/CoreOnly (= 10.24.0)
->     - Flutter
+>   - Firebase/CoreOnly (= 10.24.0)
+>   - Flutter
 > - firebase_messaging (14.8.2):
->     - Firebase/Messaging (= 10.24.0)
->     - firebase_core
->     - Flutter
+>   - Firebase/Messaging (= 10.24.0)
+>   - firebase_core
+>   - Flutter
 > - FirebaseAnalytics (10.24.0):
->     - FirebaseAnalytics/AdIdSupport (= 10.24.0)
->     - FirebaseCore (~> 10.0)
->     - FirebaseInstallations (~> 10.0)
->     - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
->     - GoogleUtilities/MethodSwizzler (~> 7.11)
->     - GoogleUtilities/Network (~> 7.11)
->     - "GoogleUtilities/NSData+zlib (~> 7.11)"
->     - nanopb (< 2.30911.0, >= 2.30908.0)
+>   - FirebaseAnalytics/AdIdSupport (= 10.24.0)
+>   - FirebaseCore (~> 10.0)
+>   - FirebaseInstallations (~> 10.0)
+>   - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+>   - GoogleUtilities/MethodSwizzler (~> 7.11)
+>   - GoogleUtilities/Network (~> 7.11)
+>   - "GoogleUtilities/NSData+zlib (~> 7.11)"
+>   - nanopb (< 2.30911.0, >= 2.30908.0)
 > - FirebaseAnalytics/AdIdSupport (10.24.0):
->     - FirebaseCore (~> 10.0)
->     - FirebaseInstallations (~> 10.0)
->     - GoogleAppMeasurement (= 10.24.0)
->     - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
->     - GoogleUtilities/MethodSwizzler (~> 7.11)
->     - GoogleUtilities/Network (~> 7.11)
->     - "GoogleUtilities/NSData+zlib (~> 7.11)"
->     - nanopb (< 2.30911.0, >= 2.30908.0)
+>   - FirebaseCore (~> 10.0)
+>   - FirebaseInstallations (~> 10.0)
+>   - GoogleAppMeasurement (= 10.24.0)
+>   - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+>   - GoogleUtilities/MethodSwizzler (~> 7.11)
+>   - GoogleUtilities/Network (~> 7.11)
+>   - "GoogleUtilities/NSData+zlib (~> 7.11)"
+>   - nanopb (< 2.30911.0, >= 2.30908.0)
 > - FirebaseCore (10.24.0):
->     - FirebaseCoreInternal (~> 10.0)
->     - GoogleUtilities/Environment (~> 7.12)
->     - GoogleUtilities/Logger (~> 7.12)
+>   - FirebaseCoreInternal (~> 10.0)
+>   - GoogleUtilities/Environment (~> 7.12)
+>   - GoogleUtilities/Logger (~> 7.12)
 > - FirebaseCoreInternal (10.29.0):
->     - "GoogleUtilities/NSData+zlib (~> 7.8)"
+>   - "GoogleUtilities/NSData+zlib (~> 7.8)"
 > - FirebaseInstallations (10.29.0):
->     - FirebaseCore (~> 10.0)
->     - GoogleUtilities/Environment (~> 7.8)
->     - GoogleUtilities/UserDefaults (~> 7.8)
->     - PromisesObjC (~> 2.1)
+>   - FirebaseCore (~> 10.0)
+>   - GoogleUtilities/Environment (~> 7.8)
+>   - GoogleUtilities/UserDefaults (~> 7.8)
+>   - PromisesObjC (~> 2.1)
 > - FirebaseMessaging (10.24.0):
->     - FirebaseCore (~> 10.0)
->     - FirebaseInstallations (~> 10.0)
->     - GoogleDataTransport (~> 9.3)
->     - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
->     - GoogleUtilities/Environment (~> 7.8)
->     - GoogleUtilities/Reachability (~> 7.8)
->     - GoogleUtilities/UserDefaults (~> 7.8)
->     - nanopb (< 2.30911.0, >= 2.30908.0)
+>   - FirebaseCore (~> 10.0)
+>   - FirebaseInstallations (~> 10.0)
+>   - GoogleDataTransport (~> 9.3)
+>   - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+>   - GoogleUtilities/Environment (~> 7.8)
+>   - GoogleUtilities/Reachability (~> 7.8)
+>   - GoogleUtilities/UserDefaults (~> 7.8)
+>   - nanopb (< 2.30911.0, >= 2.30908.0)
 > - Flutter (1.0.0)
 > - flutter_app_badger (1.3.0):
->     - Flutter
+>   - Flutter
 > - flutter_keyboard_visibility (0.0.1):
->     - Flutter
+>   - Flutter
 > - flutter_local_notifications (0.0.1):
->     - Flutter
+>   - Flutter
 > - flutter_native_splash (0.0.1):
->     - Flutter
+>   - Flutter
 > - flutter_phone_direct_caller (0.0.1):
->     - Flutter
+>   - Flutter
 > - flutter_secure_storage (6.0.0):
->     - Flutter
+>   - Flutter
 > - flutter_timezone (0.0.1):
->     - Flutter
+>   - Flutter
 > - fluttertoast (0.0.2):
->     - Flutter
->     - Toast
+>   - Flutter
+>   - Toast
 > - geolocator_apple (1.2.0):
->     - Flutter
+>   - Flutter
 > - google_maps_flutter_ios (0.0.1):
->     - Flutter
->     - GoogleMaps (< 10.0, >= 8.4)
-> - google_mlkit_commons (0.7.1):
->     - Flutter
->     - MLKitVision
-> - google_mlkit_face_detection (0.11.0):
->     - Flutter
->     - google_mlkit_commons
->     - GoogleMLKit/FaceDetection (~> 6.0.0)
+>   - Flutter
+>   - GoogleMaps (< 10.0, >= 8.4)
 > - GoogleAppMeasurement (10.24.0):
->     - GoogleAppMeasurement/AdIdSupport (= 10.24.0)
->     - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
->     - GoogleUtilities/MethodSwizzler (~> 7.11)
->     - GoogleUtilities/Network (~> 7.11)
->     - "GoogleUtilities/NSData+zlib (~> 7.11)"
->     - nanopb (< 2.30911.0, >= 2.30908.0)
+>   - GoogleAppMeasurement/AdIdSupport (= 10.24.0)
+>   - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+>   - GoogleUtilities/MethodSwizzler (~> 7.11)
+>   - GoogleUtilities/Network (~> 7.11)
+>   - "GoogleUtilities/NSData+zlib (~> 7.11)"
+>   - nanopb (< 2.30911.0, >= 2.30908.0)
 > - GoogleAppMeasurement/AdIdSupport (10.24.0):
->     - GoogleAppMeasurement/WithoutAdIdSupport (= 10.24.0)
->     - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
->     - GoogleUtilities/MethodSwizzler (~> 7.11)
->     - GoogleUtilities/Network (~> 7.11)
->     - "GoogleUtilities/NSData+zlib (~> 7.11)"
->     - nanopb (< 2.30911.0, >= 2.30908.0)
+>   - GoogleAppMeasurement/WithoutAdIdSupport (= 10.24.0)
+>   - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+>   - GoogleUtilities/MethodSwizzler (~> 7.11)
+>   - GoogleUtilities/Network (~> 7.11)
+>   - "GoogleUtilities/NSData+zlib (~> 7.11)"
+>   - nanopb (< 2.30911.0, >= 2.30908.0)
 > - GoogleAppMeasurement/WithoutAdIdSupport (10.24.0):
->     - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
->     - GoogleUtilities/MethodSwizzler (~> 7.11)
->     - GoogleUtilities/Network (~> 7.11)
->     - "GoogleUtilities/NSData+zlib (~> 7.11)"
->     - nanopb (< 2.30911.0, >= 2.30908.0)
+>   - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+>   - GoogleUtilities/MethodSwizzler (~> 7.11)
+>   - GoogleUtilities/Network (~> 7.11)
+>   - "GoogleUtilities/NSData+zlib (~> 7.11)"
+>   - nanopb (< 2.30911.0, >= 2.30908.0)
 > - GoogleDataTransport (9.4.1):
->     - GoogleUtilities/Environment (~> 7.7)
->     - nanopb (< 2.30911.0, >= 2.30908.0)
->     - PromisesObjC (< 3.0, >= 1.2)
+>   - GoogleUtilities/Environment (~> 7.7)
+>   - nanopb (< 2.30911.0, >= 2.30908.0)
+>   - PromisesObjC (< 3.0, >= 1.2)
 > - GoogleMaps (8.4.0):
->     - GoogleMaps/Maps (= 8.4.0)
+>   - GoogleMaps/Maps (= 8.4.0)
 > - GoogleMaps/Base (8.4.0)
 > - GoogleMaps/Maps (8.4.0):
->     - GoogleMaps/Base
+>   - GoogleMaps/Base
 > - GoogleMLKit/BarcodeScanning (6.0.0):
->     - GoogleMLKit/MLKitCore
->     - MLKitBarcodeScanning (~> 5.0.0)
-> - GoogleMLKit/FaceDetection (6.0.0):
->     - GoogleMLKit/MLKitCore
->     - MLKitFaceDetection (~> 5.0.0)
+>   - GoogleMLKit/MLKitCore
+>   - MLKitBarcodeScanning (~> 5.0.0)
 > - GoogleMLKit/MLKitCore (6.0.0):
->     - MLKitCommon (~> 11.0.0)
+>   - MLKitCommon (~> 11.0.0)
 > - GoogleToolboxForMac/Defines (4.2.1)
 > - GoogleToolboxForMac/Logger (4.2.1):
->     - GoogleToolboxForMac/Defines (= 4.2.1)
+>   - GoogleToolboxForMac/Defines (= 4.2.1)
 > - "GoogleToolboxForMac/NSData+zlib (4.2.1)":
->     - GoogleToolboxForMac/Defines (= 4.2.1)
+>   - GoogleToolboxForMac/Defines (= 4.2.1)
 > - GoogleUtilities/AppDelegateSwizzler (7.13.3):
->     - GoogleUtilities/Environment
->     - GoogleUtilities/Logger
->     - GoogleUtilities/Network
->     - GoogleUtilities/Privacy
+>   - GoogleUtilities/Environment
+>   - GoogleUtilities/Logger
+>   - GoogleUtilities/Network
+>   - GoogleUtilities/Privacy
 > - GoogleUtilities/Environment (7.13.3):
->     - GoogleUtilities/Privacy
->     - PromisesObjC (< 3.0, >= 1.2)
+>   - GoogleUtilities/Privacy
+>   - PromisesObjC (< 3.0, >= 1.2)
 > - GoogleUtilities/Logger (7.13.3):
->     - GoogleUtilities/Environment
->     - GoogleUtilities/Privacy
+>   - GoogleUtilities/Environment
+>   - GoogleUtilities/Privacy
 > - GoogleUtilities/MethodSwizzler (7.13.3):
->     - GoogleUtilities/Logger
->     - GoogleUtilities/Privacy
+>   - GoogleUtilities/Logger
+>   - GoogleUtilities/Privacy
 > - GoogleUtilities/Network (7.13.3):
->     - GoogleUtilities/Logger
->     - "GoogleUtilities/NSData+zlib"
->     - GoogleUtilities/Privacy
->     - GoogleUtilities/Reachability
+>   - GoogleUtilities/Logger
+>   - "GoogleUtilities/NSData+zlib"
+>   - GoogleUtilities/Privacy
+>   - GoogleUtilities/Reachability
 > - "GoogleUtilities/NSData+zlib (7.13.3)":
->     - GoogleUtilities/Privacy
+>   - GoogleUtilities/Privacy
 > - GoogleUtilities/Privacy (7.13.3)
 > - GoogleUtilities/Reachability (7.13.3):
->     - GoogleUtilities/Logger
->     - GoogleUtilities/Privacy
+>   - GoogleUtilities/Logger
+>   - GoogleUtilities/Privacy
 > - GoogleUtilities/UserDefaults (7.13.3):
->     - GoogleUtilities/Logger
->     - GoogleUtilities/Privacy
+>   - GoogleUtilities/Logger
+>   - GoogleUtilities/Privacy
 > - GoogleUtilitiesComponents (1.1.0):
->     - GoogleUtilities/Logger
+>   - GoogleUtilities/Logger
 > - GTMSessionFetcher/Core (3.5.0)
 > - image_picker_ios (0.0.1):
->     - Flutter
+>   - Flutter
 > - local_auth_darwin (0.0.1):
->     - Flutter
->     - FlutterMacOS
+>   - Flutter
+>   - FlutterMacOS
 > - map_launcher (0.0.1):
->     - Flutter
+>   - Flutter
 > - MLImage (1.0.0-beta5)
 > - MLKitBarcodeScanning (5.0.0):
->     - MLKitCommon (~> 11.0)
->     - MLKitVision (~> 7.0)
+>   - MLKitCommon (~> 11.0)
+>   - MLKitVision (~> 7.0)
 > - MLKitCommon (11.0.0):
->     - GoogleDataTransport (< 10.0, >= 9.4.1)
->     - GoogleToolboxForMac/Logger (< 5.0, >= 4.2.1)
->     - "GoogleToolboxForMac/NSData+zlib (< 5.0, >= 4.2.1)"
->     - GoogleUtilities/UserDefaults (< 8.0, >= 7.13.0)
->     - GoogleUtilitiesComponents (~> 1.0)
->     - GTMSessionFetcher/Core (< 4.0, >= 3.3.2)
-> - MLKitFaceDetection (5.0.0):
->     - MLKitCommon (~> 11.0)
->     - MLKitVision (~> 7.0)
+>   - GoogleDataTransport (< 10.0, >= 9.4.1)
+>   - GoogleToolboxForMac/Logger (< 5.0, >= 4.2.1)
+>   - "GoogleToolboxForMac/NSData+zlib (< 5.0, >= 4.2.1)"
+>   - GoogleUtilities/UserDefaults (< 8.0, >= 7.13.0)
+>   - GoogleUtilitiesComponents (~> 1.0)
+>   - GTMSessionFetcher/Core (< 4.0, >= 3.3.2)
 > - MLKitVision (7.0.0):
->     - GoogleToolboxForMac/Logger (< 5.0, >= 4.2.1)
->     - "GoogleToolboxForMac/NSData+zlib (< 5.0, >= 4.2.1)"
->     - GTMSessionFetcher/Core (< 4.0, >= 3.3.2)
->     - MLImage (= 1.0.0-beta5)
->     - MLKitCommon (~> 11.0)
+>   - GoogleToolboxForMac/Logger (< 5.0, >= 4.2.1)
+>   - "GoogleToolboxForMac/NSData+zlib (< 5.0, >= 4.2.1)"
+>   - GTMSessionFetcher/Core (< 4.0, >= 3.3.2)
+>   - MLImage (= 1.0.0-beta5)
+>   - MLKitCommon (~> 11.0)
 > - mobile_scanner (5.2.3):
->     - Flutter
->     - GoogleMLKit/BarcodeScanning (~> 6.0.0)
+>   - Flutter
+>   - GoogleMLKit/BarcodeScanning (~> 6.0.0)
 > - nanopb (2.30910.0):
->     - nanopb/decode (= 2.30910.0)
->     - nanopb/encode (= 2.30910.0)
+>   - nanopb/decode (= 2.30910.0)
+>   - nanopb/encode (= 2.30910.0)
 > - nanopb/decode (2.30910.0)
 > - nanopb/encode (2.30910.0)
 > - open_filex (0.0.2):
->     - Flutter
+>   - Flutter
 > - package_info_plus (0.4.5):
->     - Flutter
+>   - Flutter
 > - path_provider_foundation (0.0.1):
->     - Flutter
->     - FlutterMacOS
+>   - Flutter
+>   - FlutterMacOS
 > - permission_handler_apple (9.3.0):
->     - Flutter
+>   - Flutter
 > - PromisesObjC (2.4.0)
 > - rive_common (0.0.1):
->     - Flutter
+>   - Flutter
 > - Sentry/HybridSDK (8.25.2)
 > - sentry_flutter (8.2.0):
->     - Flutter
->     - FlutterMacOS
->     - Sentry/HybridSDK (= 8.25.2)
+>   - Flutter
+>   - FlutterMacOS
+>   - Sentry/HybridSDK (= 8.25.2)
 > - share_plus (0.0.1):
->     - Flutter
+>   - Flutter
 > - shared_preferences_foundation (0.0.1):
->     - Flutter
->     - FlutterMacOS
+>   - Flutter
+>   - FlutterMacOS
 > - sqflite_darwin (0.0.4):
->     - Flutter
->     - FlutterMacOS
+>   - Flutter
+>   - FlutterMacOS
 > - "sqlite3 (3.46.1+1)":
->     - "sqlite3/common (= 3.46.1+1)"
+>   - "sqlite3/common (= 3.46.1+1)"
 > - "sqlite3/common (3.46.1+1)"
 > - "sqlite3/fts5 (3.46.1+1)":
->     - sqlite3/common
+>   - sqlite3/common
 > - "sqlite3/perf-threadsafe (3.46.1+1)":
->     - sqlite3/common
+>   - sqlite3/common
 > - "sqlite3/rtree (3.46.1+1)":
->     - sqlite3/common
+>   - sqlite3/common
 > - sqlite3_flutter_libs (0.0.1):
->     - Flutter
->     - sqlite3 (~> 3.46.0)
->     - sqlite3/fts5
->     - sqlite3/perf-threadsafe
->     - sqlite3/rtree
+>   - Flutter
+>   - sqlite3 (~> 3.46.0)
+>   - sqlite3/fts5
+>   - sqlite3/perf-threadsafe
+>   - sqlite3/rtree
 > - store_redirect (0.0.1):
->     - Flutter
+>   - Flutter
 > - Toast (4.1.1)
 > - url_launcher_ios (0.0.1):
->     - Flutter
+>   - Flutter
 > - webview_flutter_wkwebview (0.0.1):
->     - Flutter
->     - FlutterMacOS
+>   - Flutter
+>   - FlutterMacOS
 > 
 > DEPENDENCIES:
 > - aiyl (from `.symlinks/plugins/aiyl/ios`)
@@ -310,8 +295,6 @@ podfile.lock file:
 > - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
 > - geolocator_apple (from `.symlinks/plugins/geolocator_apple/ios`)
 > - google_maps_flutter_ios (from `.symlinks/plugins/google_maps_flutter_ios/ios`)
-> - google_mlkit_commons (from `.symlinks/plugins/google_mlkit_commons/ios`)
-> - google_mlkit_face_detection (from `.symlinks/plugins/google_mlkit_face_detection/ios`)
 > - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
 > - local_auth_darwin (from `.symlinks/plugins/local_auth_darwin/darwin`)
 > - map_launcher (from `.symlinks/plugins/map_launcher/ios`)
@@ -351,7 +334,6 @@ podfile.lock file:
 > - MLImage
 > - MLKitBarcodeScanning
 > - MLKitCommon
-> - MLKitFaceDetection
 > - MLKitVision
 > - nanopb
 > - PromisesObjC
@@ -400,10 +382,6 @@ podfile.lock file:
 > :path: ".symlinks/plugins/geolocator_apple/ios"
 > google_maps_flutter_ios:
 > :path: ".symlinks/plugins/google_maps_flutter_ios/ios"
-> google_mlkit_commons:
-> :path: ".symlinks/plugins/google_mlkit_commons/ios"
-> google_mlkit_face_detection:
-> :path: ".symlinks/plugins/google_mlkit_face_detection/ios"
 > image_picker_ios:
 > :path: ".symlinks/plugins/image_picker_ios/ios"
 > local_auth_darwin:
@@ -468,8 +446,6 @@ podfile.lock file:
 > fluttertoast: e9a18c7be5413da53898f660530c56f35edfba9c
 > geolocator_apple: 6cbaf322953988e009e5ecb481f07efece75c450
 > google_maps_flutter_ios: 5bc2be60ad012e79b182ce0fb0ef5030a50fb03e
-> google_mlkit_commons: 96aaca445520311b84a2da013dedf3427fe4cc69
-> google_mlkit_face_detection: b760d6035222630f347352b3b13f4a23ea9fb994
 > GoogleAppMeasurement: f3abf08495ef2cba7829f15318c373b8d9226491
 > GoogleDataTransport: 6c09b596d841063d76d4288cc2d2f42cc36e1e2a
 > GoogleMaps: 8939898920281c649150e0af74aa291c60f2e77d
@@ -484,7 +460,6 @@ podfile.lock file:
 > MLImage: 1824212150da33ef225fbd3dc49f184cf611046c
 > MLKitBarcodeScanning: 10ca0845a6d15f2f6e911f682a1998b68b973e8b
 > MLKitCommon: afec63980417d29ffbb4790529a1b0a2291699e1
-> MLKitFaceDetection: 7c0e8bf09ddd27105da32d088fca978a99fc30cc
 > MLKitVision: e858c5f125ecc288e4a31127928301eaba9ae0c1
 > mobile_scanner: 96e91f2e1fb396bb7df8da40429ba8dfad664740
 > nanopb: 438bc412db1928dac798aa6fd75726007be04262
@@ -509,3 +484,4 @@ podfile.lock file:
 > PODFILE CHECKSUM: a95ac90b5b5ddb471dd014790ff725446fc367e5
 > 
 > COCOAPODS: 1.15.2
+> 
